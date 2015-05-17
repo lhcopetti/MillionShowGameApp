@@ -1,0 +1,241 @@
+<milliongame>
+
+	// EASY QUESTIONS
+
+    <question>
+        <questionString>Qual é a capital de Mato Grosso do Sul?</questionString>
+        <answer>Campo Grande</answer>
+        <wrongOption>São Paulo</wrongOption>
+        <wrongOption>Curitiba</wrongOption>
+        <wrongOption>Porto Alegre</wrongOption>
+        <difficulty>EASY</difficulty>
+    </question>
+
+    <question>
+        <questionString>Qual o continente que tem mais países?</questionString>
+        <answer>África</answer>
+        <wrongOption>Europa</wrongOption>
+        <wrongOption>América</wrongOption>
+        <wrongOption>Ásia</wrongOption>
+        <difficulty>EASY</difficulty>
+    </question>
+
+    <question>
+        <questionString>Como se chama o agrupamento ou conjunto de ilhas num determinado ponto do oceano?</questionString>
+        <answer>Arquipélago</answer>
+        <wrongOption>Constelação</wrongOption>
+        <wrongOption>Mariato</wrongOption>
+        <wrongOption>Semana</wrongOption>
+        <difficulty>EASY</difficulty>
+    </question>   
+
+    <question>
+        <questionString>Como é chamado o movimento de fluxo e refluxo de água em todo o planeta?</questionString>
+        <answer>Maré</answer>
+        <wrongOption>Cheia</wrongOption>
+        <wrongOption>Inundação</wrongOption>
+        <wrongOption>Maremoto</wrongOption>
+        <difficulty>EASY</difficulty>
+    </question>   
+    <question>
+        <questionString>Que nome é dado à boca de descarga das águas de um rio?</questionString>
+        <answer>Foz</answer>
+        <wrongOption>Nascente</wrongOption>
+        <wrongOption>Oceano</wrongOption>
+        <wrongOption>Baía</wrongOption>
+        <difficulty>EASY</difficulty>
+    </question>   
+
+    <question>
+        <questionString>Qual é a maior cidade da Turquia?</questionString>
+        <answer>Istambul</answer>
+        <wrongOption>Ancara</wrongOption>
+        <wrongOption>Bagdá</wrongOption>
+        <wrongOption>Teerã</wrongOption>
+        <difficulty>EASY</difficulty>
+    </question>
+
+    <question>
+        <questionString>A cidade de Amsterdã está localizada em que país?</questionString>
+        <answer>Países Baixos</answer>
+        <wrongOption>França</wrongOption>
+        <wrongOption>Espanha</wrongOption>
+        <wrongOption>Portugal</wrongOption>
+        <difficulty>EASY</difficulty>
+    </question>   
+
+
+    <question>
+        <questionString>Que nome é dado às maiores elevações da superfície da Terra?</questionString>
+        <answer>Montanhas</answer>
+        <wrongOption>Vales</wrongOption>
+        <wrongOption>Planaltos</wrongOption>
+        <wrongOption>Planícies</wrongOption>
+        <difficulty>EASY</difficulty>
+    </question>   
+
+
+
+
+
+
+    // MEDIUM QUESTIONS
+
+    <question>
+        <questionString>Qual é a cidade mexicana que tem o mesmo nome da raça de um cachorro?</questionString>
+        <answer>Chihuahua</answer>
+        <wrongOption>Guadalajara</wrongOption>
+        <wrongOption>Acapulco</wrongOption>
+        <wrongOption>Tampico</wrongOption>
+        <difficulty>MEDIUM</difficulty>
+    </question>   
+
+    <question>
+        <questionString>Qual a montanha mais elevada da África?</questionString>
+        <answer>Kilimanjaro</answer>
+        <wrongOption>Aconcágua</wrongOption>
+        <wrongOption>Monte Branco</wrongOption>
+        <wrongOption>Everest</wrongOption>
+        <difficulty>MEDIUM</difficulty>
+    </question>   
+
+	<question>
+        <questionString>As Olimpíadas de 1988 aconteceram em Seul, capital de que país?</questionString>
+        <answer>Coréia do Sul</answer>
+        <wrongOption>Países Baixos</wrongOption>
+        <wrongOption>Grécia</wrongOption>
+        <wrongOption>Alemanha</wrongOption>
+        <difficulty>MEDIUM</difficulty>
+    </question>    
+    
+    <question>
+        <questionString>Como se chama o lago salgado, que é parte mais baixa da Terra, situado na Palestina?</questionString>
+        <answer>Mar Morto</answer>
+        <wrongOption>Mar Cáspio</wrongOption>
+        <wrongOption>Mar Mediterrâneo</wrongOption>
+        <wrongOption>Mar do Caribe</wrongOption>
+        <difficulty>MEDIUM</difficulty>
+    </question>
+
+
+	<question>
+        <questionString>Toronto é uma cidade de qual país?</questionString>
+        <answer>Canadá</answer>
+        <wrongOption>China</wrongOption>
+        <wrongOption>Rússia</wrongOption>
+        <wrongOption>Austrália</wrongOption>
+        <difficulty>MEDIUM</difficulty>
+    </question>    
+
+	<question>
+        <questionString>O abacaxi é originário de que país?</questionString>
+        <answer>Brasil</answer>
+        <wrongOption>Estados Unidos</wrongOption>
+        <wrongOption>Colômbia</wrongOption>
+        <wrongOption>Venezuela</wrongOption>
+        <difficulty>MEDIUM</difficulty>
+    </question>    
+
+    <question>
+        <questionString>Qual é o maior arquipélago do mundo?</questionString>
+        <answer>Ilhas da Insulíndia</answer>
+        <wrongOption>Ilhas Canárias</wrongOption>
+        <wrongOption>Ilhas Salomão</wrongOption>
+        <wrongOption>Grandes Antílhas</wrongOption>
+        <difficulty>MEDIUM</difficulty>
+    </question>   
+    
+    <question>
+        <questionString>Como é também chamada a abertura larga na costa, pela qual o mar penetra em profundidade?</questionString>
+        <answer>Golfo</answer>
+        <wrongOption>Estuário</wrongOption>
+        <wrongOption>Baía</wrongOption>
+        <wrongOption>Lagoa</wrongOption>
+        <difficulty>MEDIUM</difficulty>
+    </question>   
+	
+
+
+
+
+
+    // DIFFICULT QUESTIONS
+
+    <question>
+        <questionString>Quantas estrelas tem a bandeira da China?</questionString>
+        <answer>Cinco</answer>
+        <wrongOption>Seis</wrongOption>
+        <wrongOption>Duas</wrongOption>
+        <wrongOption>Três</wrongOption>
+        <difficulty>DIFFICULT</difficulty>
+    </question>
+
+	<question>
+        <questionString>Que país possui 50 de seus 150 vulcões em atividade?</questionString>
+        <answer>Japão</answer>
+        <wrongOption>Brasil</wrongOption>
+        <wrongOption>Estados Unidos</wrongOption>
+        <wrongOption>Itália</wrongOption>
+        <difficulty>DIFFICULT</difficulty>
+    </question>    
+
+	<question>
+        <questionString>Na fronteira de quais países está o Everest, pico mais alto do mundo?</questionString>
+        <answer>Nepal e China</answer>
+        <wrongOption>Suíça e Itália</wrongOption>
+        <wrongOption>Chile e Argentina</wrongOption>
+        <wrongOption>Brasil e Uruguai</wrongOption>
+        <difficulty>DIFFICULT</difficulty>
+    </question>    
+
+    <question>
+        <questionString>A queda d'água mais alta do mundo é a de Angel, na Venezuela, que cai a uma altura de:</questionString>
+        <answer>980 metros</answer>
+        <wrongOption>520 metros</wrongOption>
+        <wrongOption>830 metros</wrongOption>
+        <wrongOption>290 metros</wrongOption>
+        <difficulty>DIFFICULT</difficulty>
+    </question>   
+    
+	<question>
+        <questionString>A planície da Manchúria encontra-se em qual país?</questionString>
+        <answer>Canadá</answer>
+        <wrongOption>Rússia</wrongOption>
+        <wrongOption>Austrália</wrongOption>
+        <wrongOption>China</wrongOption>
+        <difficulty>DIFFICULT</difficulty>
+    </question>    
+
+	<question>
+        <questionString>Qual é a capital do Azerbaijão?</questionString>
+        <answer>Baku</answer>
+        <wrongOption>Tibilissi</wrongOption>
+        <wrongOption>Yerevan</wrongOption>
+        <wrongOption>Moscou</wrongOption>
+        <difficulty>DIFFICULT</difficulty>
+    </question>    
+
+
+    <question>
+        <questionString>Que tipo de protestantismo predomina na Austrália?</questionString>
+        <answer>Anglicanismo</answer>
+        <wrongOption>Luteranismo</wrongOption>
+        <wrongOption>Calvinismo</wrongOption>
+        <wrongOption>Neopentecostalismo</wrongOption>
+        <difficulty>DIFFICULT</difficulty>
+    </question>   
+
+
+    <question>
+        <questionString>A mistura do francês seiscentista com dialetos africanos, inglês, espanhol e palavras indígenas originou que língua?</questionString>
+        <answer>Crioulo</answer>
+        <wrongOption>Papiamento</wrongOption>
+        <wrongOption>Tupi-guarani</wrongOption>
+        <wrongOption>Provençal</wrongOption>
+        <difficulty>DIFFICULT</difficulty>
+    </question>   
+
+
+
+
+</milliongame>
