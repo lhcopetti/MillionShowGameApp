@@ -9,305 +9,183 @@
     <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background_game">
+        android:background="@drawable/background_game"
+        android:layout_gravity="left|bottom">
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="215dp"
-            android:layout_height="fill_parent">
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60">
 
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="220dp"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="Pergunta"
-                    android:id="@+id/txt_Question"
-                    android:textColor="#ffffffff"
-                    android:background="@drawable/bar_questao"
-                    android:clickable="false"
-                    android:focusable="false"
-                    android:layout_margin="5dp" />
-
-                <Space
-                    android:layout_width="20px"
-                    android:layout_height="20px" />
-
-                <RadioGroup
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content">
-
-                    <RadioButton
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:text="New RadioButton"
-                        android:id="@+id/rB_Option1"
-                        android:textColor="#ffffffff"
-                        android:background="@drawable/bar_alternativas"
-                        android:layout_margin="5dp"
-                        android:checked="true" />
-
-                    <RadioButton
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:text="New RadioButton"
-                        android:id="@+id/rB_Option2"
-                        android:textColor="#ffffffff"
-                        android:background="@drawable/bar_alternativas"
-                        android:layout_margin="5dp"
-                        android:checked="false" />
-
-                    <RadioButton
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:text="New RadioButton"
-                        android:id="@+id/rB_Option3"
-                        android:textColor="#ffffffff"
-                        android:background="@drawable/bar_alternativas"
-                        android:layout_margin="5dp"
-                        android:checked="false" />
-
-                    <RadioButton
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:text="New RadioButton"
-                        android:id="@+id/rB_Option4"
-                        android:textColor="#ffffffff"
-                        android:background="@drawable/bar_alternativas"
-                        android:layout_margin="5dp"
-                        android:checked="false" />
-
-                </RadioGroup>
-
-                <Space
-                    android:layout_width="20px"
-                    android:layout_height="20px" />
-
-            </LinearLayout>
-
-            <Button
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:text="Responder"
-                android:id="@+id/btn_Answer"
-                android:layout_gravity="bottom|center"
-                android:background="#fff0eb00"
-                android:textColor="#ffff0b00"
-                android:clickable="true"
-                android:textStyle="bold"
-                android:onClick="onClickResponder" />
-
-            <LinearLayout
-                android:orientation="horizontal"
+            <TextView
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:gravity="bottom"
-                android:layout_marginBottom="10dp">
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Pergunta"
+                android:id="@+id/txt_Question"
+                android:textColor="#ffffffff"
+                android:background="@drawable/bar_questao"
+                android:clickable="false"
+                android:focusable="false"
+                android:layout_margin="5dp"
+                android:layout_weight="2" />
 
-                <Space
-                    android:layout_width="20px"
-                    android:layout_height="20px" />
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdGroup">
 
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:gravity="bottom">
+                <RadioButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:text="New RadioButton"
+                    android:id="@+id/rB_Option1"
+                    android:textColor="#ffffffff"
+                    android:background="@drawable/bar_alternativas"
+                    android:layout_margin="5dp"
+                    android:checked="true"
+                    android:layout_weight="1" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:id="@+id/txt_Wrong"
-                        android:text="Errar"
-                        android:background="#fff0eb00"
-                        android:textColor="#ffff0b00"
-                        android:textStyle="bold"
-                        android:clickable="false"
-                        android:focusable="false"
-                        android:layout_marginLeft="7dp" />
+                <RadioButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:text="New RadioButton"
+                    android:id="@+id/rB_Option2"
+                    android:textColor="#ffffffff"
+                    android:background="@drawable/bar_alternativas"
+                    android:layout_margin="5dp"
+                    android:checked="false"
+                    android:layout_weight="1" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:id="@+id/textView7"
-                        android:text="Errar"
-                        android:clickable="false"
-                        android:focusable="false"
-                        android:textColor="#ffffffff"
-                        android:textStyle="bold" />
-                </LinearLayout>
+                <RadioButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:text="New RadioButton"
+                    android:id="@+id/rB_Option3"
+                    android:textColor="#ffffffff"
+                    android:background="@drawable/bar_alternativas"
+                    android:layout_margin="5dp"
+                    android:checked="false"
+                    android:layout_weight="1" />
 
-                <Space
-                    android:layout_width="20px"
-                    android:layout_height="20px" />
+                <RadioButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:text="New RadioButton"
+                    android:id="@+id/rB_Option4"
+                    android:textColor="#ffffffff"
+                    android:background="@drawable/bar_alternativas"
+                    android:layout_margin="5dp"
+                    android:checked="false"
+                    android:layout_weight="1" />
 
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:baselineAligned="false"
-                    android:gravity="bottom">
+            </RadioGroup>
 
-                    <Button
-                        android:layout_width="50dp"
-                        android:layout_height="wrap_content"
-                        android:text="Parar"
-                        android:id="@+id/btn_Stop"
-                        android:singleLine="true"
-                        android:textColor="#ffff0b00"
-                        android:background="#fff0eb00"
-                        android:textStyle="bold"
-                        android:clickable="true" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="Parar"
-                        android:id="@+id/textView8"
-                        android:clickable="false"
-                        android:focusable="false"
-                        android:textColor="#ffffffff"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <Space
-                    android:layout_width="20px"
-                    android:layout_height="20px" />
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:baselineAligned="false"
-                    android:gravity="bottom">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="Acertar"
-                        android:id="@+id/txt_Score"
-                        android:background="#fff0eb00"
-                        android:textColor="#ffff0b00"
-                        android:textStyle="bold"
-                        android:clickable="false"
-                        android:focusable="false"
-                        android:layout_gravity="left" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="Acertar"
-                        android:id="@+id/textView9"
-                        android:clickable="false"
-                        android:focusable="false"
-                        android:textColor="#ffffffff"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </LinearLayout>
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_marginLeft="5dp">
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            >
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Rodada"
-                android:id="@+id/textViewRodada"
-                android:textColor="#ffffffff"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Pergunta"
-                android:id="@+id/textViewNumPrgunta"
-                android:textColor="#ffffffff"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView"
-                android:background="@drawable/silvio"
-                android:clickable="false"
-                android:focusable="false" />
-
-            <LinearLayout
-                android:orientation="vertical"
+            <Button
+                style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="30dp">
+                android:text="Responder"
+                android:id="@+id/btn_Answer"
+                android:textAlignment="center" />
+        </LinearLayout>
 
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15">
 
-                    <Button
-                        android:layout_width="50dp"
-                        android:layout_height="70dp"
-                        android:id="@+id/btn_Cards"
-                        android:background="@drawable/baralho"
-                        android:enabled="true"
-                        android:onClick="onClickCartas" />
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_Skip"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@drawable/pulo_milha"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                android:layout_weight="1" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="Sorte nas cartas?"
-                        android:id="@+id/textView2"
-                        android:textColor="#ffffffff"
-                        android:textStyle="bold"
-                        android:enabled="false" />
-                </LinearLayout>
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_Cards"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:background="@drawable/cards_milha"
+                android:scaleType="fitCenter"
+                android:cropToPadding="true"
+                android:adjustViewBounds="true"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_weight="1" />
 
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent">
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="fill_parent"
+                android:text="PARAR"
+                android:id="@+id/btn_Stop"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:layout_rowSpan="2"
+                android:layout_gravity="center|right"
+                android:layout_weight="1" />
 
-                    <Button
-                        android:layout_width="50dp"
-                        android:layout_height="70dp"
-                        android:id="@+id/btn_Skip"
-                        android:enabled="true"
-                        android:background="@drawable/pular"
-                        android:onClick="onClickPular" />
+        </LinearLayout>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="Pular pergunta"
-                        android:id="@+id/textView5"
-                        android:textColor="#ffffffff"
-                        android:textStyle="bold" />
-                </LinearLayout>
-            </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="15">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/txt_PrizeWrong"
+                android:layout_weight="1"
+                android:textColor="@color/yellow"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/txt_PrizeStop"
+                android:layout_weight="1"
+                android:textColor="@color/yellow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/txt_PrizeScore"
+                android:layout_weight="1"
+                android:autoText="false"
+                android:textColor="@color/yellow"/>
         </LinearLayout>
 
     </LinearLayout>

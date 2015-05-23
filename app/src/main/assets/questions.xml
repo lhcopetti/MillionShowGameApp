@@ -1,6 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <milliongame>
-
-	// EASY QUESTIONS
 
     <question>
         <questionString>Qual é a capital de Mato Grosso do Sul?</questionString>
@@ -74,12 +73,6 @@
         <difficulty>EASY</difficulty>
     </question>   
 
-
-
-
-
-
-    // MEDIUM QUESTIONS
 
     <question>
         <questionString>Qual é a cidade mexicana que tem o mesmo nome da raça de um cachorro?</questionString>
@@ -159,7 +152,6 @@
 
 
 
-    // DIFFICULT QUESTIONS
 
     <question>
         <questionString>Quantas estrelas tem a bandeira da China?</questionString>
@@ -167,7 +159,7 @@
         <wrongOption>Seis</wrongOption>
         <wrongOption>Duas</wrongOption>
         <wrongOption>Três</wrongOption>
-        <difficulty>DIFFICULT</difficulty>
+        <difficulty>HARD</difficulty>
     </question>
 
 	<question>
@@ -176,7 +168,7 @@
         <wrongOption>Brasil</wrongOption>
         <wrongOption>Estados Unidos</wrongOption>
         <wrongOption>Itália</wrongOption>
-        <difficulty>DIFFICULT</difficulty>
+        <difficulty>HARD</difficulty>
     </question>    
 
 	<question>
@@ -185,7 +177,7 @@
         <wrongOption>Suíça e Itália</wrongOption>
         <wrongOption>Chile e Argentina</wrongOption>
         <wrongOption>Brasil e Uruguai</wrongOption>
-        <difficulty>DIFFICULT</difficulty>
+        <difficulty>HARD</difficulty>
     </question>    
 
     <question>
@@ -194,7 +186,7 @@
         <wrongOption>520 metros</wrongOption>
         <wrongOption>830 metros</wrongOption>
         <wrongOption>290 metros</wrongOption>
-        <difficulty>DIFFICULT</difficulty>
+        <difficulty>HARD</difficulty>
     </question>   
     
 	<question>
@@ -203,7 +195,7 @@
         <wrongOption>Rússia</wrongOption>
         <wrongOption>Austrália</wrongOption>
         <wrongOption>China</wrongOption>
-        <difficulty>DIFFICULT</difficulty>
+        <difficulty>HARD</difficulty>
     </question>    
 
 	<question>
@@ -212,7 +204,7 @@
         <wrongOption>Tibilissi</wrongOption>
         <wrongOption>Yerevan</wrongOption>
         <wrongOption>Moscou</wrongOption>
-        <difficulty>DIFFICULT</difficulty>
+        <difficulty>HARD</difficulty>
     </question>    
 
 
@@ -222,7 +214,7 @@
         <wrongOption>Luteranismo</wrongOption>
         <wrongOption>Calvinismo</wrongOption>
         <wrongOption>Neopentecostalismo</wrongOption>
-        <difficulty>DIFFICULT</difficulty>
+        <difficulty>HARD</difficulty>
     </question>   
 
 
@@ -232,7 +224,7 @@
         <wrongOption>Papiamento</wrongOption>
         <wrongOption>Tupi-guarani</wrongOption>
         <wrongOption>Provençal</wrongOption>
-        <difficulty>DIFFICULT</difficulty>
+        <difficulty>HARD</difficulty>
     </question>   
 
 
