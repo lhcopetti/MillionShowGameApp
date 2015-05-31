@@ -7,12 +7,15 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
+        android:largeHeap="true"
         >
         <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
         <activity
             android:name=".SplashScreen"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,14 +23,25 @@
             </intent-filter>
         </activity>
         <activity
-
             android:name=".MainGame"
-
-            android:label="@string/title_activity_main_game" >
+            android:label="@string/title_activity_main_game"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".GameMenu"
-            android:label="@string/title_activity_game_menu" >
+            android:label="@string/title_activity_game_menu"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChooseCards"
+            android:label="@string/title_activity_choose_cards"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".RankingActivity"
+            android:label="@string/title_activity_ranking"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 

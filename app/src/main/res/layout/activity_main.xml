@@ -6,11 +6,10 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:id="@+id/imageView2"
-        android:src="@drawable/splash_show_do_milhao"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:background="@drawable/background_activity_main_splash"
+        android:adjustViewBounds="true" />
 
 </FrameLayout>

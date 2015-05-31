@@ -5,4 +5,14 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_main_game">MainGame</string>
     <string name="title_activity_game_menu">GameMenu</string>
+    <string name="title_activity_choose_cards">ChooseCards</string>
+    <string name="title_activity_ranking">RankingActivity</string>
+    <string name="EXTRA_MAINGAME_NAME">com.example.luiscopetti.</string>
+    <string name="MainGame_AlertDialogTitle">Ranking Show Do Milhão</string>
+    <string name="MainGame_AlertDialogPosButton">Me adicione!</string>
+    <string name="MainGame_AlertDialogNegButton">Não quero!</string>
+    <string name="TITLE_MAINGAME">Show do Milhão</string>
+    <string name="TITLE_CHOOSECARDS">\"Choose a card. Wisely!\"</string>
+    <string name="TITLE_RANKINGACTIVITY">Ranking</string>
+    <string name="TITLE_GAMEMENU">Menu Principal</string>
 </resources>

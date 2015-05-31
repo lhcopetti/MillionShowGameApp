@@ -21,18 +21,11 @@ public class SplashScreen extends ActionBarActivity {
             @Override
             public void run() {
             Intent intent = new Intent();
-            intent.setClass(SplashScreen.this, MainGame.class);
+            intent.setClass(SplashScreen.this, GameMenu.class);
             startActivity(intent);
+            finish();
             }
         }, SPLASH_TIMEOUT);
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
     }
 
     @Override

@@ -5,9 +5,6 @@
     android:id="@+id/fragment_game"
     tools:context="com.example.luiscopetti.millionshowgameapp.MainGame">
 
-
-    <!-- TODO: Update blank fragment layout -->
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
@@ -21,18 +18,25 @@
             android:layout_height="0dp"
             android:layout_weight="60">
 
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="0dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Pergunta"
-                android:id="@+id/txt_Question"
-                android:textColor="#ffffffff"
-                android:background="@drawable/bar_questao"
-                android:clickable="false"
-                android:focusable="false"
-                android:layout_margin="5dp"
-                android:layout_weight="2" />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Pergunta"
+                    android:id="@+id/txt_Question"
+                    android:textColor="#ffffffff"
+                    android:background="@drawable/bar_questao"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:layout_margin="5dp"
+                    android:layout_weight="2"
+                    android:padding="5dp" />
+            </ScrollView>
 
             <RadioGroup
                 android:layout_width="fill_parent"
@@ -111,22 +115,23 @@
             android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
-            android:layout_weight="15">
+            android:layout_weight="13"
+            android:layout_margin="10dp">
 
             <ImageButton
-                android:layout_width="90dp"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn_Skip"
                 android:layout_row="0"
                 android:layout_column="0"
-                android:background="@drawable/pulo_milha"
+                android:background="@drawable/canguru"
                 android:adjustViewBounds="true"
                 android:cropToPadding="false"
                 android:scaleType="fitCenter"
                 android:layout_weight="1" />
 
             <ImageButton
-                android:layout_width="90dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/btn_Cards"
                 android:layout_row="0"
@@ -140,15 +145,15 @@
                 android:layout_weight="1" />
 
             <Button
-                android:layout_width="90dp"
+                android:layout_width="50dp"
                 android:layout_height="fill_parent"
-                android:text="PARAR"
                 android:id="@+id/btn_Stop"
                 android:layout_row="0"
                 android:layout_column="2"
                 android:layout_rowSpan="2"
                 android:layout_gravity="center|right"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="@drawable/stop" />
 
         </LinearLayout>
 
@@ -157,35 +162,74 @@
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_gravity="bottom"
-            android:layout_weight="15">
+            android:layout_weight="10"
+            >
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Large Text"
+                android:layout_height="40dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Errar: 500K"
                 android:id="@+id/txt_PrizeWrong"
                 android:layout_weight="1"
-                android:textColor="@color/yellow"/>
+                android:textColor="@color/yellow"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="@drawable/board"/>
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_height="40dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Large Text"
                 android:id="@+id/txt_PrizeStop"
                 android:layout_weight="1"
-                android:textColor="@color/yellow" />
+                android:textColor="@color/yellow"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="@drawable/board"/>
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_height="40dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Large Text"
                 android:id="@+id/txt_PrizeScore"
                 android:layout_weight="1"
                 android:autoText="false"
-                android:textColor="@color/yellow"/>
+                android:textColor="@color/yellow"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="@drawable/board"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/txt_QuestionsAnswered"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:textColor="#ffffff00"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/txt_TimeElapsed"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:textColor="#ffffff00"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </LinearLayout>
